@@ -1,12 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Ashutosh Rout | Portfolio</title>
+  <title>Ashutosh Rout</title>
   <style>
-    body { font-family: Arial; margin: 0; background: #0A192F; color: white; }
-    header { padding: 40px; text-align: center; }
-    section { padding: 30px; }
-    .card { background: #112240; padding: 20px; margin: 15px 0; border-radius: 10px; }
+    body { margin:0; font-family: 'Segoe UI'; background:#0A192F; color:white; }
+    header { text-align:center; padding:60px; }
+    h1 { font-size:40px; }
+    section { padding:40px; max-width:900px; margin:auto; }
+    .card {
+      background:#112240;
+      padding:25px;
+      margin:20px 0;
+      border-radius:12px;
+      transition:0.3s;
+    }
+    .card:hover {
+      transform:scale(1.03);
+    }
+    ul { line-height:1.8; }
   </style>
 </head>
 
@@ -18,35 +29,31 @@
 </header>
 
 <section>
-  <h2>About Me</h2>
   <div class="card">
-    <p>Operations professional with 1.5+ years experience in logistics, dispatch, and fleet coordination.</p>
+    <h2>About</h2>
+    <p>Experienced in dispatch, fleet management, and SLA optimization with proven results in improving delivery performance.</p>
   </div>
-</section>
 
-<section>
-  <h2>Key Achievements</h2>
   <div class="card">
+    <h2>Achievements</h2>
     <ul>
-      <li>Improved delivery from 85% to 95%</li>
+      <li>Delivery improved: 85% → 95%</li>
       <li>Handled 40–50 shipments/day</li>
       <li>Reduced delays by 20%</li>
     </ul>
   </div>
-</section>
 
-<section>
-  <h2>Projects</h2>
   <div class="card">
-    <p>📊 Logistics Dashboard (Excel)</p>
-    <p>🚚 Fleet Optimization Model</p>
-    <p>📦 Dispatch Improvement Case Study</p>
+    <h2>Projects</h2>
+    <ul>
+      <li>Logistics KPI Dashboard</li>
+      <li>Fleet Optimization Model</li>
+      <li>Dispatch Workflow Case Study</li>
+    </ul>
   </div>
-</section>
 
-<section>
-  <h2>Contact</h2>
   <div class="card">
+    <h2>Contact</h2>
     <p>Email: ashutoshrout3561@gmail.com</p>
     <p>Phone: 8280119551</p>
   </div>
